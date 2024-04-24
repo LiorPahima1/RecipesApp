@@ -1,0 +1,57 @@
+.recipes-account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url('images/cookbook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.content-wrapper {
+    background-color: rgba(218, 214, 214, 0.78);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons-container {
+    margin-top: 20px;
+}
+
+.my-recipes-button,
+.shared-recipes-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.my-recipes-button:hover,
+.shared-recipes-button:hover {
+    background-color: grey;
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.background-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

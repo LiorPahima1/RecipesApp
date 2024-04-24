@@ -1,0 +1,27 @@
+.recipe-details-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/vegetables.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.white-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.white-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.white-container p {
+    margin-bottom: 10px;
+}
